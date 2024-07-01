@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>{{ user.name }}</title>
+</head>
+<body>
+<h1>{{ user.name }}</h1>
+<h2>Stores:</h2>
+<ul>
+    {% for store in user['stores'] -%}
+
+    {% endfor %}
+</ul>
+</body>
+</html>
